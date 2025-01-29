@@ -6,7 +6,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 // OpenRouter API Key
-$api_key = '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';
+$api_key = '';
 
 // Get the user's doubt from the POST request
 $data = json_decode(file_get_contents('php://input'), true);
